@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WYFS</title>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/midia.css">
+</head>
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-96x96.png">
+<body>
+    <div id="header">
+        <div class="header">
+            <ul>
+                <li><a href="#" class="login">로그인</a></li>
+                <li><a href="#">이용권 구매</a></li>
+                <li><a href="#">라운지</a></li>
+                <li><a href="#">이벤트</a></li>
+                <li><a href="#">공지사항</a></li>
+            </ul>
+        </div>
+        <!-- <div class="search"> -->
+            
+                <!-- <li><a href="#"><img src="images/logo.png" alt=""></a></li> -->
+                <div id="circle"><img src="images/logo250.png" alt=""></div>
+                <!-- <li><a href="#"><input type="text"></a></li> -->
+            
+        <!-- /div> --><!-- search -->
+        <div id="menu">
+            <ul >
+                <li><a href="#">WYFS차트</a></li>
+                <li><a href="#">최신음악</a></li>
+                <li><a href="#">장르음악</a></li>
+                <li><a href="#">WYFS DJ</a></li>
+                <li><a href="#">WYFS TV</a></li>
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">뮤직어워드</a></li>
+                <li><a href="#">어학</a></li>
+                <li><a href="#">마이뮤직</a></li>
+            </ul>
+        </div><!-- menu -->
+        <div>
+            <ul class="mm_menu">
+                <li><a href="#">WYFS차트</a></li>
+                <li><a href="#">최신음악</a></li>
+                <li><a href="#">장르음악 </a></li>
+                <li><a href="#">WYFS DJ</a></li>
+                <li><a href="#">WYFS TV</a></li>
+                <li><a href="#">매거진</a></li>
+                <li><a href="#">뮤직어워드</a></li>
+                <li><a href="#">어학</a></li>
+                <li><a href="#">마이뮤직</a></li>
+            </ul>
+        </div>
+    </div><!-- header -->
+    <div class="hamburger" >
+        <div id="ham-1">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+    </div><!--hamburger  -->
+    
+        <div class="section">
+            <a href="#"><h2>사용자 PICK ></h2></a>
+            <ul>
+                <li><a href="#"><img src="images/데이식스7.png" alt=""></a>
+                    <span><img src="images/데식7.png" alt=""></span>
+                    <h3>DAY6</h3>
+                    <h5>Love Holic</h5>
+                </li>
+                <li><a href="#"><img src="images/데이식스6.jpg" alt=""></a>
+                    <span><img src="images/데식6.png" alt=""></span>
+                    <h3>DAY6</h3>
+                    <h5>예뻤어</h5>
+                </li>
+                
+                <li><a href="#"><img src="images/데이식스3.jpg" alt=""></a>
+                    <span><img src="images/데식3.png" alt=""></span>
+                    <h3>DAY6</h3>
+                    <h5>행복했던 날들이었다</h5>
+                </li>
+                <li><a href="#"><img src="images/데이식스4.jpg" alt=""></a>
+                    <span><img src="images/데식4.png" alt=""></span>
+                    <h3>DAY6</h3>
+                    <h5>Sweet Chaos</h5>
+                </li>
+                <li><a href="#"><img src="images/데이식스5.jpg" alt=""></a>
+                    <span><img src="images/데식5.png" alt=""></span>
+                    <h3>DAY6</h3>
+                    <h5>한 페이지가 될 수 있게</h5>
+                </li>
+            </ul>
+        </div><!-- section -->
+
+    <div class="section">
+        
+        <ul>
+            <li><a href="#"><img src="images/잔나비.jpg" alt=""></a>
+                <span><img src="images/잔나비.png" alt=""></span>
+                <h3>잔나비</h3>
+                <h5>투게더!</h5>
+            </li>
+            <li><a href="#"><img src="images/죠지.jpg" alt=""></a>
+                <span><img src="images/죠지.png" alt=""></span>
+                <h3>죠지</h3>
+                <h5>Romeo n Juliet(feat.유라)</h5>
+            </li>
+            
+            <li><a href="#"><img src="images/유라.jpg" alt=""></a>
+                <span><img src="images/유라.png" alt=""></span>
+                <h3>유라</h3>
+                <h5>깜빡(feat.카더가든)</h5>
+            </li>
+            <li><a href="#"><img src="images/치즈.jpg" alt=""></a>
+                <span><img src="images/치즈.png" alt=""></span>
+                <h3>CHEEZE</h3>
+                <h5>Mood Indigo</h5>
+            </li>
+            <li><a href="#"><img src="images/뉴진스2.jpg" alt=""></a>
+                <span><img src="images/뉴진스22.png" alt=""></span>
+                <h3>NEWJEANS</h3>
+                <h5>Supernatural</h5>
+            </li>
+        </ul>
+    </div>
+
+
+    
+    
+    
+    
+    <div id="section">
+        <div class="chart-container">
+            <h1>Top 10 음악 순위</h1>
+            <div id="chart">
+            <!-- 순위 항목이 여기에 동적으로 추가됩니다 -->
+            </div>
+        </div>
+        <div class="id_section">
+            <a href="#"><h2>인기 있어요 ></h2></a>
+            <P>지금 이슈가 되는 아티스트의 인기 컨텐츠 입니다.</P>
+        </div>
+            
+            
+            
+            
+            
+            
+            
+            <div class="popular">
+                
+                <ul>
+                    <li><a href="#"><img src="images/블핑.jpg" alt=""></a>
+                    <span>
+                        <a href="#">
+                            <p>'블랙핑크 월드투어 [본 핑크]인 시네마' </p>
+                            <h4>ScreenX 예고편</h4>
+                        </a>
+                    </span>
+                </li>
+                <li><a href="#"><img src="images/루시.jpg" alt=""></a>
+                    <span>
+                        <a href="#">
+                            <p>[마이 아티 필름 | EP.04]</p>
+                            <h4>미공개 스페셜 에디션 스포일러</h4>
+                        </a>
+                    </span>
+                </li>
+                <li><a href="#"><img src="images/투어스.jpg" alt=""></a>
+                    <span>
+                        <a href="#">
+                            <p>[TWS:CLUB] 우리들의 MBTI를 찾아서</p>
+                            <h4>TWS 리얼리티</h4>
+                        </a>
+                    </span>
+                </li>
+            </ul>
+        </div><!-- popular -->
+        <div class="popular">
+            <ul>
+                <li><a href="#"><img src="images/데식.jpg" alt=""></a>
+                    <span>
+                        <a href="#">
+                            <p>DAY6(데이식스) (Band Aid)</p>
+                            <h4>Concept Film </h4>
+                        </a>
+                    </span>
+                </li>
+                <li><a href="#"><img src="images/뉴진수.jpg" alt=""></a>
+                    <span>
+                        <a href="#">
+                            <p>'Supernatural'&'Right Now' </p>
+                            <h4>Music Show Behind</h4>
+                        </a>
+                    </span>
+                </li>
+                <li><a href="#"><img src="images/아이들.jpg" alt=""></a>
+                    <span>
+                        
+                        <a href="#">
+                            <p>I-TALK #175 : '클락션 (Klaxon)'</p>
+                            <h4>(여자)아이들-음악방송 비하인드</h4>
+                        </a>
+                    </span>
+                </li>
+            </ul>
+        </div><!-- popular -->
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+    <div class="section">
+        <a href="#"><h2>혼술 할 때 듣기 좋은 노래 ></h2></a>
+        <ul>
+            <li><a href="#"><img src="images/검정치마.jpg" alt=""></a>
+                <span><img src="images/검정치마.png" alt=""></span>
+                <h3>검정치마</h3>
+                <h5>나랑 아니면</h5>
+            </li>
+            <li><a href="#"><img src="images/백아.jpg" alt=""></a>
+                <span><img src="images/백아.png" alt=""></span>
+                <h3>백아</h3>
+                <h5>첫사랑</h5>
+            </li>
+            
+            <li><a href="#"><img src="images/좋은밤 좋은꿈.jpg" alt=""></a>
+                <span><img src="images/좋음밤 좋은꿈.png 좋은꿈.png" alt=""></span>
+                <h3>너드커넥션</h3>
+                <h5>좋은밤 좋은꿈</h5>
+            </li>
+            <li><a href="#"><img src="images/데먼이.jpg" alt=""></a>
+                <span><img src="images/데먼이.png" alt=""></span>
+                <h3>테이먼스이어</h3>
+                <h5>Yours</h5>
+            </li>
+            <li><a href="#"><img src="images/카더가든.jpg" alt=""></a>
+                <span><img src="images/카더가든.png" alt=""></span>
+                <h3>카더가든</h3>
+                <h5>Home Sweet Home</h5>
+            </li>
+        </ul>
+    </div><!-- section -->
+    <div class="section">
+            <a href="#"><h2>해외TOP 100></h2></a>
+            <ul>
+                <li><a href="#"><img src="images/honne.jpg" alt=""></a>
+                    <span><img src="images/honne.png" alt=""></span>
+                    <h3>Honne</h3>
+                    <h5>Day1</h5>
+                </li>
+                <li><a href="#"><img src="images/dieforu.png" alt=""></a>
+                    <span><img src="images/dieforyou.png" alt=""></span>
+                    <h3>The Weekend</h3>
+                    <h5>Die For You</h5>
+                </li>
+                
+                <li><a href="#"><img src="images/iuntil.jpg" alt=""></a>
+                    <span><img src="images/iuntil.png" alt=""></span>
+                    <h3>Stephen Sanchez</h3>
+                    <h5>Until I Found You</h5>
+                </li>
+                <li><a href="#"><img src="images/찰푸.jpg" alt=""></a>
+                    <span><img src="images/찰푸.png" alt=""></span>
+                    <h3>Charlie Puth</h3>
+                    <h5>Dangerously</h5>
+                </li>
+                <li><a href="#"><img src="images/door open.jpg" alt=""></a>
+                    <span><img src="images/door.png" alt=""></span>
+                    <h3>Bruno Mars</h3>
+                    <h5>Leave the door open</h5>
+                </li>
+            </ul>
+        </div><!-- section -->
+
+
+
+    <footer class="footer">
+        <div class="f_inner">
+            <ul class="f_menu">
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">서비스이용약관 </a></li>
+                <li><a href="#">멤버십이용약관 </a></li>
+                <li><a href="#">WYFS이용약관 </a></li>
+                <li><a href="#">위치기반서비스 이용약관 </a></li>
+                <li><a href="#">고객문의 </a></li>
+                <li><a href="#">고객설문 </a></li>
+
+                
+            </ul>
+
+            <address class="address">
+                &ensp; 법인명: (주) Whats Your Favorite Song 대표자: 이다운 사업자등록번호 123-45-6789  <br>
+                &ensp; 주소 : 경기도 구리시 인창동(하이미디어) 대표전화 : 02-9804-0333  <br>
+                &ensp; COPYRIGHT (C) WYFS. All Rights Reserved.
+            </address><!-- address -->
+        </div><!-- f_inner -->
+    </footer><!-- footer -->
+
+</body>
+</html>
